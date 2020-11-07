@@ -6,9 +6,9 @@ a pomodoro bot for Telegram with [tbot.rs](https:://tbot.rs)
 ## Install
 
 - Message @BotFather on Telegram to acquire a new bot token
-- `export` the token as `BOT_TOKEN` environment variable
 - Clone the repo
 - Run `cargo install --path .` (I have not pushed it to crates.io yet)
+- `export` the token as `BOT_TOKEN` environment variable
 - run the bot and have fun being productive ^-^
 
 ## Usage

@@ -12,7 +12,7 @@ mod time;
 
 #[tokio::main]
 async fn main() -> Result<(), MethodCall> {
-    let bot = tbot::from_env!("BOT_TOKEN");
+    let bot = tbot::Bot::from_env("BOT_TOKEN");
     let mut event_loop = bot.clone().stateful_event_loop(State::default());
 
     // Fetch the bot's username
